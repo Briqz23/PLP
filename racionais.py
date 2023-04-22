@@ -50,8 +50,4 @@ class Racionais:
 
 
 
-fracao1 = Racionais(10, -2)
-fracao2 = Racionais(-4, -2)
-
-print(fracao1.divisao(fracao2))
 
