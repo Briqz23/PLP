@@ -6,6 +6,14 @@ public class Racionais{
     public Racionais(int numerador, int denominador){
         this.numerador = numerador;
         this.denominador = denominador;
+        sinais();
+    }
+
+    public void sinais(){
+        if ((numerador <0 && denominador<0) || (denominador<0 && numerador>0)){
+            numerador = numerador*(-1);
+            denominador = denominador*(-1);
+        }
     }
 
 
