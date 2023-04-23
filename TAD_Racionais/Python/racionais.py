@@ -15,7 +15,7 @@ class Racionais:
     @staticmethod
     def reduce_fraction(racionais):
         gcd = math.gcd(racionais.numerador, racionais.denominador)
-
+        
         racionais.numerador = racionais.numerador // gcd
         racionais.denominador = racionais.denominador // gcd
 
